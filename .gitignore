@@ -1,0 +1,93 @@
+# --- 操作系统生成文件 ---
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+.directory
+
+# --- 编辑器和 IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+*.sublime-project
+.project
+.classpath
+.settings/
+*.iml
+
+# --- 日志和临时文件 ---
+*.log
+*.tmp
+*.temp
+*.cache
+*.pid
+*.seed
+*.pid.lock
+
+# --- 依赖和构建产物 ---
+node_modules/
+bower_components/
+jspm_packages/
+vendor/
+__pycache__/
+*.pyc
+*.pyo
+*.class
+*.jar
+*.war
+target/
+build/
+dist/
+out/
+bin/
+obj/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# --- 环境 / 密钥 ---
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+*.secret
+
+# --- 压缩文件 ---
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.bz2
+*.gz
+
+# --- 包管理锁文件（按需取消注释） ---
+# package-lock.json
+# yarn.lock
+# Gemfile.lock
+# poetry.lock
